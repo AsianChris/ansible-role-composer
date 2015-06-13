@@ -4,7 +4,7 @@ allow_duplicates: no
 dependencies:
       - { role: AsianChris.system }
       - { role: AsianChris.curl }
-      - { role: AsianChris.php }
+      - { role: AsianChris.php5 }
 
 galaxy_info:
   author: Chris Baptista
