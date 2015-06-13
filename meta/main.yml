@@ -1,0 +1,21 @@
+---
+allow_duplicates: no
+
+dependencies:
+      - { role: AsianChris.system }
+      - { role: AsianChris.curl }
+      - { role: AsianChris.php }
+
+galaxy_info:
+  author: Chris Baptista
+  description: composer installation
+  company:
+  license: license (BSD)
+  min_ansible_version: 1.2
+  platforms:
+  - name: Ubuntu
+    versions:
+    - trusty
+  categories:
+    - packaging
+    - development

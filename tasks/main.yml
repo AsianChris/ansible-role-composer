@@ -1,0 +1,7 @@
+---
+- name: Install Composer
+  shell:
+    curl -sS https://getcomposer.org/installer | php -- --filename=composer --install-dir=/usr/local/bin
+    creates='/usr/local/bin/composer'
+    chdir='/tmp'
+  sudo: yes
